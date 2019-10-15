@@ -21,6 +21,11 @@ export default function App() {
         value={rating2}
         onClick={setRating2}
       />
+      <StarRating
+      className="mt d-block"
+      starCount={10}
+      value={1}
+      />
     </div>
   );
 }
